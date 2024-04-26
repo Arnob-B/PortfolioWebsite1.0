@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-color:red;
+  }
+}
+@layer components{
+.mr-robot-headers{
+  @apply font-extrabold font-mono text-3xl font-outline-2 text-black/0;
+};
+.spadx{
+  @apply px-60;
+}
+}
+@layer components{
+  .white-deep-header{
+    @apply font-bold text-lg 
+  }
+}
