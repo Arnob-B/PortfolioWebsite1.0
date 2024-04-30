@@ -21,7 +21,13 @@
 };
 .spadx{
   @apply px-60;
-}
+};
+.top1mp{
+  @apply my-2;
+};
+.top2mp{
+  @apply mt-2 mb-4;
+};
 }
 @layer components{
   .white-deep-header{

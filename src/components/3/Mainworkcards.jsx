@@ -5,12 +5,12 @@ export default function WorkingCards({
   carddetails
 }){
   return (
-    <div className="py-5">
+    <div className="top1mp">
       <div className="flex flex-col">
         <div className="white-deep-header my-2">
           Explore my works
         </div>
-        <div className="my-2 mr-robot-headers text-4xl">
+        <div className="top2mp mr-robot-headers text-4xl">
           RECENT WORKS
         </div>
       </div>

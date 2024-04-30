@@ -7,10 +7,9 @@ export default function Cards ({
     "red" : "text-red-300 bg-red-40 border-1 border-red-300" ,
     "purple" : "text-purple-300 bg-purple-40 border-1 border-purple-300" ,
   }
-  let count = 3;
   return (
     <a href={projlink}>
-      <div className="flex flex-col bg-slate-700 px-2 py-2 mx-2 my-2 rounded-3xl border-1 border-slate-500">
+      <div className="flex flex-col bg-slate-700 px-2 pt-2 mx-2  rounded-3xl border-1 border-slate-500 overflow-hidden">
         <img src={imglink} className="object-contain rounded-3xl my-2" />
         <div className="bg-inherit text-3xl font-bold text-white mx-2 my-2">
           {title.toUpperCase()}
@@ -19,7 +18,6 @@ export default function Cards ({
           {
             stacklist.map(x => {
               let col = `mx-2 px-1 py-0.5 font-bold text-sm  rounded-lg bg-inherit ${mycolors[x.color]}`;
-              console.log(col);
               return (
                 <div key={x.key} className={col}>
                   {x.name.toUpperCase()}
