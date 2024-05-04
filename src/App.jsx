@@ -5,12 +5,28 @@ import Mainworkcards from './components/3/Mainworkcards'
 import WorkExpMain from './components/4/workExpMain'
 import Mainquotes from './components/5/Mainquotes'
 import main from "./docsexporter.json"
-
-function App() {
+import ssvg from "./assets/stack.svg"
+import {  Suspense, useState } from "react";
+function Maincomp(){
+  const [bgcol, sbgcol] = useState(1);
+  const [tog,settog] = useState(0);
+  const swtichtog  = ()=> {
+    settog(!tog);
+  }
   return (
-    <div>
-      <Topnav></Topnav>
-      <div className='spadx'>
+    <div className={bgcol ? "bg-black text-white" :" bg-white text-black" }>
+      <div className='z-10 fixed left-0 top-0 md:hidden'>
+        <button className='w-5 h-5 bg-green-700 rounded text-green-500 active:text-green-700 bg-inherit object-contain' onClick={swtichtog}>
+        </button>
+      </div>
+      <div className='bg-inherit'>
+      <Topnav
+      bgcol = {bgcol}
+      sbgcol = {sbgcol}
+      tog = {tog}
+      ></Topnav>
+      </div>
+      <div className='xl:px-60 lg:px-40 md:px-10 sm:px-2 '>
 
         <ShortIntro
         prop = {main.a1}
@@ -30,7 +46,19 @@ function App() {
         </Mainquotes>
         </div>
     </div>
-  )
+  );
+}
+
+const Loading = () =>{
+  return <div>
+    "loading ....."
+  </div>
+}
+function App() {
+  return <div>
+    <Suspense fallback={<Loading/>}><Maincomp/></Suspense>
+  </div>
+  
 }
 
 export default App
