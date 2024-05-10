@@ -1,7 +1,17 @@
 {
+  "misc":{
+    "togglebutton1":"https://cdn-icons-png.flaticon.com/512/14135/14135137.png ",
+    "togglebutton2":"https://cdn-icons-png.flaticon.com/512/12859/12859463.png "
+  },
+  "navbar":{
+    "name":"Arnob Bhakta",
+    "imglight":"src/assets/userprofile-dark.png",
+    "imgdark":"src/assets/userprofile-light.png"
+  },
   "a1": {
     "title": "username",
-    "userimg": "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFsZSUyMG1vZGVsJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D",
+    "userimgdark": "src/assets/user.png",
+    "userimglight": "src/assets/user.png",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt amet veritatis tenetur facere. Nam incidunt, distinctio cupiditate assumenda blanditiis beatae rerum accusantium. Reiciendis nisi nostrum in, ad a possimus obcaecati.",
     "proff": "pizza maker"
   },

@@ -15,7 +15,7 @@ return(
     <div className=" top2mp mr-robot-headers text-3xl ">
       Biography Experience
     </div>
-    <div className="grid grid-cols-2 gap-4 w-full py-6">
+    <div className="grid grid-cols-1 gap-4 w-full py-6 lg:grid-cols-2 ">
       <MainCards
       type ={"comp"}
       title = {"Full Time (Official)"}

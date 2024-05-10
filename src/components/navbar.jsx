@@ -2,7 +2,7 @@ import {  useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 export default function Topnav({
-  bgcol,sbgcol,tog
+  bgcol,sbgcol,tog,prop
 }){
   const switchbg = ()=>{
     sbgcol(!bgcol);
@@ -10,20 +10,20 @@ export default function Topnav({
   return (
     <div className={"fixed "+((tog)? "left-0" :"-left-1/2")+" top-0 md:static bg-inherit"}>
       <nav className="flex  flex-col justify-start py-10 items-start px-5 h-screen w-fit border-r-0.15 border-gray-500 hover:border-green-500 md:flex-row md:justify-between md:border-b-0.15 md:w-screen md:h-auto md:py-2">
-        <div className="flex flex-col items-center md:flex-row justify-center lg:w-1/3 my-3">
-          <div className="w-7">
-            <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" className="shadow rounded-full max-w-full h-auto align-middle border-none" alt="h" />
+        <div className="flex flex-col items-center md:flex-row justify-center lg:w-1/3 my-0  sm:border-b-1 sm:border-white sm:hover:border-green-600 md:border-none">
+          <div className="w-12">
+            <img src={bgcol ? prop.imgdark:prop.imglight} className="shadow rounded-full max-w-fill h-auto object-cover align-middle border-none" alt="h" />
           </div>
           <div className="mx-3 my-1 text-white-500 text-sm font-mono font-bold">
-            Arnob Bhakta
+            {prop.name}
           </div>
         </div>
-        <div className="flex md:flex-row lg:w-1/3 md:justify-center flex-col  my-3">
-        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400"><a href="https://www.google.com">HOME</a></ul>
-        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400"><a href="https://www.google.com">ABOUT</a></ul>
-        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400"><a href="https://www.google.com">SERVICES</a></ul>
-        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400"><a href="https://www.google.com">PORTFOLIO</a></ul>
-        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400"><a href="https://www.google.com">CONTACT</a></ul>
+        <div className="flex md:flex-row lg:w-1/3 md:justify-center flex-col my-3">
+        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">HOME</a></ul>
+        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">ABOUT</a></ul>
+        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">SERVICES</a></ul>
+        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">PORTFOLIO</a></ul>
+        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">CONTACT</a></ul>
         </div>
         <div className="lg:w-1/3 flex flex-col items-center md:flex-row lg:justify-center justify-end my-1">
           <button className="md:w-1/12 w-7 " onClick={switchbg} >

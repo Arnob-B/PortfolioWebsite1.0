@@ -35,7 +35,7 @@ export default function Mainquotes(
       <div className="mr-robot-headers text-3xl top2mp">
         USERS OPINION
       </div>
-      <div className="grid grid-cols-3  gap-x-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-x-5 gap-y-5">
         {props.map(x=>{
           return(
             <Cards
