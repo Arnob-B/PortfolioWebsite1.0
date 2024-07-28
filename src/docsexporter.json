@@ -5,13 +5,13 @@
   },
   "navbar":{
     "name":"Arnob Bhakta",
-    "imglight":"src/assets/userprofile-dark.png",
-    "imgdark":"src/assets/userprofile-light.png"
+    "imglight":"https://github.com/Arnob-B/PortfolioWebsite1.0/blob/main/src/assets/userprofile-dark.png?raw=true",
+    "imgdark":"https://github.com/Arnob-B/PortfolioWebsite1.0/blob/main/src/assets/userprofile-light.png?raw=true"
   },
   "shortintro": {
     "title": "Arnob",
-    "userimgdark": "src/assets/user.png",
-    "userimglight": "src/assets/user.png",
+    "userimgdark": "https://raw.githubusercontent.com/Arnob-B/PortfolioWebsite1.0/main/src/assets/user.png",
+    "userimglight": "https://raw.githubusercontent.com/Arnob-B/PortfolioWebsite1.0/main/src/assets/user.png",
     "desc": "Hi, I’m Arnob! I’m an IT student with a passion for solving complex problems and exploring new technologies. Whether I’m coding, experimenting with gadgets, or contributing to open-source projects, I’m always eager to learn and innovate. Let’s connect if you share my enthusiasm for tech!",
     "proff": "College Student"
   },
