@@ -19,11 +19,12 @@ export default function Topnav({
           </div>
         </div>
         <div className="flex md:flex-row lg:w-1/3 md:justify-center flex-col my-3">
-        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">HOME</a></ul>
+        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="/">HOME</a></ul>
+{/* 
         <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">ABOUT</a></ul>
         <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">SERVICES</a></ul>
         <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">PORTFOLIO</a></ul>
-        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">CONTACT</a></ul>
+        <ul className="text-white-500 text-sm font-mono font-bold  m-1 hover:text-green-400 my-3 md:my-0"><a href="https://www.google.com">CONTACT</a></ul> */}
         </div>
         <div className="lg:w-1/3 flex flex-col items-center md:flex-row lg:justify-center justify-end my-1">
           <button className="md:w-1/12 w-7 " onClick={switchbg} >
