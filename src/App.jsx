@@ -49,10 +49,10 @@ function Maincomp() {
     proffesionalcarrierdetails={main.status.p1}
     educationalcarrierdetails={main.status.e1}
     />
-    <Mainquotes
+    {/* <Mainquotes
     props={main.reviews}
     >
-    </Mainquotes>
+    </Mainquotes> */}
     </div>
     </div>
   );
