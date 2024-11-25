@@ -13,12 +13,12 @@
     "userimgdark": "https://raw.githubusercontent.com/Arnob-B/PortfolioWebsite1.0/main/src/assets/user.png",
     "userimglight": "https://raw.githubusercontent.com/Arnob-B/PortfolioWebsite1.0/main/src/assets/user.png",
     "desc": "Hi, I’m Arnob! I’m an IT student with a passion for solving complex problems and exploring new technologies. Whether I’m coding, experimenting with gadgets, or contributing to open-source projects, I’m always eager to learn and innovate. Let’s connect if you share my enthusiasm for tech!",
-    "proff": "College Student"
+    "proff": "Undergrad Student"
   },
   "maincontent": {
     "title": "Tech Enthu",
-    "desc": "I'm a passionate and dedicated [Your Profession] with expertise in [Your Areas of Expertise]. With a keen eye for detail and a drive for excellence, I specialize in [Highlight Your Specialization.In my portfolio, you'll find a collection of my latest projects and ventures, showcasing my skills in [Your Skills]. From innovative [Type of Projects] to dynamic [Type of Projects], each endeavor reflects my commitment to delivering high-quality results that exceed expectations.Explore my portfolio to witness firsthand how I blend creativity with technical proficiency to tackle challenges and bring visions to life. Whether you're seeking a collaborator for your next project or looking to elevate your team's capabilities, I'm here to contribute and make a meaningful impact.Let's connect and discuss how we can work together to achieve your goals!",
-    "years": "2",
+    "desc": "I'm a passionate and dedicated developer with expertise in Web. With a keen eye for detail and a drive for excellence, I specialize in backend development . From innovative simple chat application to complex auctioning webiste, each endeavor reflects my commitment to delivering high-quality results that exceed expectations.Explore my portfolio to witness firsthand how I blend creativity with technical proficiency to tackle challenges and bring visions to life.",
+    "years": "3",
     "stackcarddetails": [
       {
         "logo": "https://cdn.vectorstock.com/i/preview-1x/38/00/trophy-neon-sign-bright-glowing-symbol-on-a-black-vector-22343800.jpg",
@@ -77,7 +77,7 @@
   },
   "projects": [
     {
-      "imglink": "https://i.pinimg.com/originals/f3/0c/dc/f30cdc56314fa6c49761c62b25be2769.png",
+      "imglink": "https://ibb.co/jHFHKnL",
       "projlink": "://www.google.com",
       "title": "Portfolio website",
       "stacklist": [
@@ -102,6 +102,52 @@
           "color": "red"
         }
       ]
+    },{
+      "imglink": "https://i.pinimg.com/originals/f3/0c/dc/f30cdc56314fa6c49761c62b25be2769.png",
+      "projlink": "https://mockipl.duckdns.org",
+      "title": "Auctioning website",
+      "stacklist": [
+        {
+          "key": 1,
+          "name": "web sockets",
+          "color": "red"
+        },
+        {
+          "key": 2,
+          "name": "redis",
+          "color": "red"
+        },
+        {
+          "key": 3,
+          "name": "AWS",
+          "color": "red"
+        },
+        {
+          "key": 4,
+          "name": "next js",
+          "color": "blue"
+        },
+        {
+          "key": 5,
+          "name": "Node js",
+          "color": "green"
+        },
+        {
+          "key": 6,
+          "name": "express js",
+          "color": "purple"
+        },
+        {
+          "key": 7,
+          "name": "postgress",
+          "color": "purple"
+        },
+        {
+          "key": 8,
+          "name": "pm2",
+          "color": "blue"
+        }      
+      ]
     }
   ],
   "status": {
@@ -123,9 +169,9 @@
         "EndingDate": "Present"
       },
       {
-        "logo": "https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/305742899_453549740127009_8387720510374655936_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=D7B9oqBloOMQ7kNvgGdRJVY&_nc_ht=scontent.fccu3-1.fna&oh=00_AYAjOZnwms1mtayuHkunQjglVTPssqTHjkqPaSw0lK8y8g&oe=66ABB4E2",
+        "logo": "https://www.schoolmykids.com/smk-media/2018/10/Sudhir-Memorial-Institute-Madhyamgram-Kolkata.png",
         "name": "SMI",
-        "Position": "mtech",
+        "Position": "High schooling",
         "StartingDate": "2012",
         "EndingDate": "2022"
       }

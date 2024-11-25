@@ -14,10 +14,10 @@ export default function Cards ({
         <div className="bg-inherit text-3xl font-bold text-white mx-2 my-2">
           {title.toUpperCase()}
         </div>
-        <div className="bg-inherit flex flex-row justify-start">
+        <div className="bg-inherit flex flex-row justify-start overflow-scroll">
           {
             stacklist.map(x => {
-              let col = `mx-2 px-1 py-0.5 font-bold text-sm  rounded-lg bg-inherit ${mycolors[x.color]}`;
+              let col = `mx-1 px-1 py-0.5 font-bold text-sm  rounded-lg bg-inherit ${mycolors[x.color]}`;
               return (
                 <div key={x.key} className={col}>
                   {x.name.toUpperCase()}
