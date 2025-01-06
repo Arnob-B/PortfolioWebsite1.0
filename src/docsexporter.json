@@ -70,6 +70,12 @@
         "stackname": "Postgresql",
         "desc": ""
       }
+      ,
+      {
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
+        "stackname": "Next JS",
+        "desc": ""
+      }
 
 
 
