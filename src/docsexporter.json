@@ -154,6 +154,28 @@
           "color": "blue"
         }      
       ]
+    },
+    {
+      "imglink": "https://desi-dhaan.netlify.app/assets/benefits-Coi_Ryst.jpg",
+      "projlink": "https://desi-dhaan.netlify.app/",
+      "title": "Auctioning website",
+      "stacklist": [
+             {
+          "key": 1,
+          "name": "react js",
+          "color": "blue"
+        },
+        {
+          "key": 2,
+          "name": "tailwind",
+          "color": "red"
+        },
+        {
+          "key":3,
+          "name":"ShadCN",
+          "color":"purple"
+        }
+      ]
     }
   ],
   "status": {
